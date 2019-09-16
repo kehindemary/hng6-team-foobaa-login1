@@ -1,0 +1,30 @@
+
+.row {
+	display: flex;
+	flex-direction: row;;
+}
+
+.col-sm-4 {
+	background: teal;
+	margin-right: 20px;
+	padding-top: 50px;
+	height: 640px;
+	text-align: center;
+	border-radius: 3%;
+}
+
+.col-sm-8 {
+	padding-top: 50px;
+}
+
+.input-group-prepend {
+	display: inline-block;
+}
+
+.footer {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
