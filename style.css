@@ -23,7 +23,7 @@ body{
 }
 
 .child-div-1 input {
-	color: : teal;
+	color: teal;
 	display: block;
 	width: 70%;
 	padding: 10px;
@@ -117,7 +117,7 @@ body{
 	margin: 17.5%;
 }
 
-a{
+.recovery{
 	display: block;
 	margin-left: 60%;
 	text-decoration: none;
@@ -147,13 +147,12 @@ a{
 	color: white;
 }
 
-p {
+.copyright{
 	margin: 100px 0px;
 	text-align: center;
-}
-p{
 	color: teal;
 }
+
 p>span{
 	color:  #9C9B9B;
 }
