@@ -1,0 +1,173 @@
+* {
+	font-family: Roboto;
+  box-sizing: border-box;
+}
+
+body{
+	background: #E5E5E5;
+}
+.input-group {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap; 
+	align-items: stretch;
+	width: 60%;
+}
+
+.signup-div {
+  display: flex;
+}
+
+.row {
+	display: flex;
+  flex-direction: row;
+}
+
+.child-div-1 {
+	text-align: center;
+	padding: 15px;
+	width: 50%
+}
+
+.child-div-1 input {
+	color: teal;
+	display: block;
+	width: 70%;
+	padding: 10px;
+	margin: 10px 20px 10px 50px;
+	border-radius: 5px;
+}
+
+.child-div-1 p {
+	position: relative;
+	margin-top: 200px;
+}
+
+.child-div-2 {
+	background: teal;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.col-sm-4 {
+	background: teal;
+	margin: 20px 0px 20px 0px;
+	height: 610px;
+	box-sizing: border-box;
+	padding: 20px 0 20px 10px;
+	color: white;
+	border-radius: 20px 0px 0px 20px;
+} 
+
+.col-sm-4 >h1{
+	text-align: center;
+	padding: 15px;
+	padding-top: 25%;
+}
+
+.col-sm-4 >span{
+	font-size: 20px;
+}
+
+.col-sm-4 >button{
+	display: block;
+	background: teal;
+	margin: 100px;
+	border: 1px solid white;
+	color: white;
+	width: 150px;
+	border-radius: 50px;
+}
+
+.col-sm-8 {
+	box-sizing: border-box;
+	background: white;
+	padding: 20px 0px -2px 10px;
+	margin: 20px 0px 20px 0px;
+}
+
+.col-sm-8 >h1{
+	text-align: center;
+	color: #9C9B9B;
+	padding: 15px;
+	padding-top: 12%;
+}
+
+.input-group-text{
+	height: 38px;
+	background: #F4F2F2;
+}
+
+.my-1 span, .my-2 span{
+	border: rgb(134, 134, 134);
+}
+
+.my-1 input, .my-2 input{
+ 	background: #F4F2F2;
+ 	border: rgb(134, 134, 134)
+}
+
+#input-password{
+	width: 57%;
+}
+
+#input-email{
+	width: 90%;
+}
+
+.my-1{
+	margin: 25%;
+}
+
+.my-2{
+	margin: 17.5%;
+}
+
+.recovery{
+	display: block;
+	margin-left: 60%;
+	text-decoration: none;
+	color: teal;
+}
+
+.btn{
+	display: block;
+	background: teal;
+	margin: 10px 0px 10px 40%;
+	border: 1px solid white;
+	color: white;
+	width: 150px;
+	border-radius: 50px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.child-div-2 p {
+	margin: 75px 0px 65px 0px;
+}
+
+.child-div-2 a {
+	text-decoration: none;
+	color: white;
+}
+
+.copyright{
+	margin: 100px 0px;
+	text-align: center;
+	color: teal;
+}
+
+p>span{
+	color:  #9C9B9B;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+}
