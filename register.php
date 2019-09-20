@@ -71,6 +71,3 @@ echo $message;
 ?>
 </body>
 </html>
-
-
-  
