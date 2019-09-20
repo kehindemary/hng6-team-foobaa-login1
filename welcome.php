@@ -59,7 +59,9 @@
         }
        session_destroy();
 ?>
-    <button class="btn"><a href = "login.html" style="color:white">Login</a>
+   <a href = "login.html" class="btn" style="color:white">Login</a>
+    <a href = "logout.php" class="btn" style="color:white">Logout</a>
+
 </section>
 </body>
 </html>
