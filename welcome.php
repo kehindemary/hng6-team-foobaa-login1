@@ -20,26 +20,46 @@
     <Style>
         section{
             font-size:2em;
-            line-height:2px;
+            width:50%;
+            margin-left:20%;
+            margin-right:20%;
+        }
+        .card-header{
+            background-color: teal;
+            color:white;
+        }
+        .card-footer{
+            background-color: teal;
+            color:white;
+        }
+        .btn{
+            background-color: teal;
+            color:white;
         }
     </Style>
 <body>
 <section>
-    <div class="child-div-2">
-    <?php
 
-        session_start();
-        if ( isset($_SESSION['email'])) {
-            echo " <p> You have successfully Login to Team Foobaa Homepage</p>";
-            echo "<h3>WELCOME BACK</h3> ". $_SESSION['name'] ;
-            echo "<br>";
-            echo "<p>Good to have you back.</p>";
-            echo "<br>";
+<div class="card text-center">
+  <div class="card-header">
+    TEAM FOOBAA
+  </div>
+  <div class="card-body" style="">
+      <?php
+       session_start();
+       if ( isset($_SESSION['email'])) {
+            echo "<h2 class='card-title'>Welcome </h2>". $_SESSION['name'] ;
+            echo "<p class='card-text'>You have successfully Login to Team Foobaa Homepage.</p>";
+            echo "<a href='register.html' class='btn'>Back</a>";
+            echo "</div>";
+            echo "<div class='card-footer'>";
             echo "Your Email Address is " . " " . $_SESSION['email'];
+            echo "</div>";
+            echo "</div>";
         }
-        session_destroy();
-    ?>
-    </div>
+       session_destroy();
+?>
+    <button class="btn"><a href = "login.html" style="color:white">Login</a>
 </section>
 </body>
 </html>
